@@ -7,12 +7,7 @@ from pydub import AudioSegment
 import spacy
 
 def final(video_path):
-
-    GOOGLE_API_KEY="AIzaSyCrnsgKHQg4WiKgHcBpJRfVA0YVz7AROQc"
-
-    genai.configure(api_key=GOOGLE_API_KEY)
-
-
+    genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
     model = genai.GenerativeModel('gemini-1.0-pro-latest')
 
     generation_config = {
@@ -53,7 +48,7 @@ def final(video_path):
 
     base_url = "https://api.assemblyai.com/v2"
     headers = {
-        "authorization": "b5a07145193344c1945082ff6bcca3b5"
+        "authorization": os.environ.get("ASSEMBLY_API_KEY")
     }
     with open("output_audio.wav", "rb") as f:
         response = requests.post(base_url + "/upload",

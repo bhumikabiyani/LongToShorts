@@ -180,4 +180,4 @@ def final(video_path):
 
         trim_and_speedup_video(video_path, output_folder, start_time, end_time)
 
-    print("All video clips trimmed and speed up successfully!")
+    print("All video clips trimmed and sped up successfully!")

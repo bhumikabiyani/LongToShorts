@@ -7,7 +7,7 @@ from video_processing import final
 
 
 if __name__ == "__main__":
-    st.title("Shorts Maker Web App from Long Videos")
+    st.title("YouTube Shorts Extractor Web App from long videos")
 
     uploaded_file = st.file_uploader("Choose a file", type=["mp4", "avi", "mov"])
 

@@ -34,6 +34,12 @@ This project is deployed using Streamlit, providing a user-friendly interface fo
 streamlit run app.py
 ```
 
+## It can also be checked Live on following link 
+```
+https://aishortsmaker.streamlit.app/
+```
+!! It might take time to load and I am working on it.
+
 ## Note
 - Ensure that the input video is sufficiently long to extract meaningful content for YouTube Shorts.
 - The extracted segments are based on similarity scores with the summarized text, so some manual curation might be required.

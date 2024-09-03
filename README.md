@@ -21,16 +21,9 @@ This project is designed to extract YouTube Shorts from long videos. YouTube Sho
     - `GOOGLE_API_KEY`: Your Google API key for generative AI.
     - `ASSEMBLY_API_KEY`: Your AssemblyAI key for audio transcription.
 
-4. This project is deployed using Streamlit, providing a user-friendly interface for users to interact with. You can deploy it to Streamlit by executing the following command:
+4. This project is given UI using Streamlit, providing a user-friendly interface for users to interact with. You can deploy it to Streamlit by executing the following command:
 ```
 streamlit run app.py
-```
-
-## Deployment
-
-## It can also be checked Live on following link 
-```
-https://aishortsmaker.streamlit.app/
 ```
 !! It might take time to load and I am working on it.
 

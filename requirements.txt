@@ -3,7 +3,10 @@ requests
 moviepy
 google-generativeai
 pydub
+numpy==1.23.0
 spacy
 assemblyai
+spacy
+thinc
 python-dotenv
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.5.0/en_core_web_lg-3.5.0.tar.gz

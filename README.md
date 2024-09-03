@@ -1,4 +1,4 @@
-# YouTubeShorts Extractor from long videos
+# Shorts Extractor from long videos
 
 This project is designed to extract YouTube Shorts from long videos. YouTube Shorts are brief videos that are less than 60 seconds in duration and are designed to be concise and engaging. By extracting important sentences from long videos and providing detailed points with a length of more than 100 words, this tool helps in creating concise video shorts suitable for platforms like YouTube Shorts.
 
@@ -21,18 +21,12 @@ This project is designed to extract YouTube Shorts from long videos. YouTube Sho
     - `GOOGLE_API_KEY`: Your Google API key for generative AI.
     - `ASSEMBLY_API_KEY`: Your AssemblyAI key for audio transcription.
 
-3. Run the script `main.py` with the path to the long video as an argument:
-    ```
-    python main.py <path_to_long_video>
-    ```
-
-4. After execution, the tool will generate trimmed and speed-up video clips in the `output` folder.
-
-## Deployment
-This project is deployed using Streamlit, providing a user-friendly interface for users to interact with. You can deploy it to Streamlit by executing the following command:
+4. This project is deployed using Streamlit, providing a user-friendly interface for users to interact with. You can deploy it to Streamlit by executing the following command:
 ```
 streamlit run app.py
 ```
+
+## Deployment
 
 ## It can also be checked Live on following link 
 ```

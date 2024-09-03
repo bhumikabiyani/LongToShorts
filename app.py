@@ -82,7 +82,7 @@ if video_file:
         prompt = transcript_text + ad
 
         # Configure the API key for Google Generative AI
-        genai.configure(os.getenv("GOOGLE_API_KEY"))
+        genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
         generation_config = {
             "temperature": 0,
